@@ -1,3 +1,20 @@
-body{
-    font-family: 'Courier New', Courier, monospace;
+header {
+  background-image: url(../assects/portada/pexels-mvdheuvel-2284166.jpg); /* Cambia esto por tu imagen */  
+  background-size: cover;
+  background-position: center;
+  height: 300px; /* Puedes ajustar la altura como prefieras */
+  display: flex;
+  align-items: center; /* Centra verticalmente el h1 */
+  justify-content: center; /* Centra horizontalmente el h1 (opcional) */
+}
+
+.titulo-principal {
+  font-family: "Oswald", sans-serif;
+  background-color: rgba(204, 185, 185, 0.5); /* Fondo negro semitransparente */
+  color: rgb(68, 37, 37);
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  font-size: 2.5rem;
 }
